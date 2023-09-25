@@ -17,16 +17,6 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
-  - key: staging
-  - key: production
-  ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: -jx.
-    tls:
-      email: ""
-      enabled: false
-      production: false
   repository: bucketrepo
   secretStorage: local
   vault: {}
